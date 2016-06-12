@@ -1,0 +1,30 @@
+.container {
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.contact-me {
+    max-width: 38em;
+    margin: 0 auto;
+}
+
+#linkedin-logo {
+    margin: 0 auto;
+    margin-right: 2em;
+}
+
+#github-logo {
+    margin: 0 auto;
+    margin-left: 2em;
+}
+
+#linkedin-link {
+    text-decoration: none;
+}
+
+#github-link {
+    text-decoration: none;
+}
