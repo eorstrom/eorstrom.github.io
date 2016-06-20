@@ -29,11 +29,11 @@ p {
     text-decoration: none;
 }
 
-#e-mail {
+#e-mail, #github, #linkedin {
     color: #fff;
     text-decoration: underline;
 }
 
-#e-mail:hover {
+#e-mail:hover, #github:hover, #linkedin:hover {
     color: #2C3E50;
 }
