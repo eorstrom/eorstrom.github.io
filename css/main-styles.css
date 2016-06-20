@@ -28,3 +28,12 @@ p {
 #github-link {
     text-decoration: none;
 }
+
+#e-mail {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#e-mail:hover {
+    color: #2C3E50;
+}
