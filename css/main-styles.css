@@ -6,7 +6,9 @@ p {
     font-size: 1.3em;
 }
 
+
 /* NAVBAR BACKGROUND COLOR OVERRIDE */
+
 .navbar {
     background-color: #6A5496;
 }
@@ -14,6 +16,19 @@ p {
 .contact-me {
     max-width: 38em;
     margin: 0 auto;
+}
+
+
+
+/* SECTION HEADINGS */
+
+.sectionheading {
+    color: #5B4881;
+}
+
+/* ABOUT ME PARAGRAPHS */
+.about-me-p p {
+    color: #47515B;
 }
 
 
@@ -49,7 +64,7 @@ p {
 }
 
 #e-mail, #github, #linkedin {
-    color: #fff;
+    color: #47515B;
     text-decoration: underline;
 }
 

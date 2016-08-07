@@ -8,10 +8,13 @@
 Light Purple: #D7C7E3
 Slightly Lighter Dark Purple: #6A5496
 Dark Purple: #5B4881
+
+Medium Gray: #47515B;
 */
 
 body {
     overflow-x: hidden;
+    color: #47515B;
 }
 
 p {
@@ -87,7 +90,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #47515B;
     background: #D7C7E3;
 }
 
