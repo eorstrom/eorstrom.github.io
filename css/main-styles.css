@@ -6,10 +6,44 @@ p {
     font-size: 1.3em;
 }
 
+
+/* NAVBAR BACKGROUND COLOR OVERRIDE */
+
+.navbar {
+    background-color: #6A5496;
+}
+
 .contact-me {
     max-width: 38em;
     margin: 0 auto;
 }
+
+
+
+/* SECTION HEADINGS */
+
+.sectionheading {
+    color: #5B4881;
+}
+
+/* ABOUT ME PARAGRAPHS */
+.about-me-p p {
+    color: #47515B;
+}
+
+
+/* CONTACT FORM SEND BUTTON COLOR OVERRIDE */
+.btn-success {
+    background-color: #6A5496;
+    border-color: #6A5496;
+}
+
+.btn-success:hover {
+    background-color: #5B4881;
+    border-color: #5B4881;
+}
+
+
 
 #linkedin-logo {
     margin: 0 auto;
@@ -30,10 +64,10 @@ p {
 }
 
 #e-mail, #github, #linkedin {
-    color: #fff;
+    color: #47515B;
     text-decoration: underline;
 }
 
 #e-mail:hover, #github:hover, #linkedin:hover {
-    color: #2C3E50;
+    color: #5B4881;
 }
