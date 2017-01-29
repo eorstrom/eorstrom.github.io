@@ -22,7 +22,7 @@ p {
 
 /* SECTION HEADINGS */
 
-.sectionheading {
+.sectionheading, .projectheading {
     color: #5B4881;
 }
 
@@ -101,4 +101,10 @@ p {
 
 #e-mail:hover, #github:hover, #linkedin:hover {
     color: #5B4881;
+}
+
+/* OTHER */
+
+#jobtitle {
+    font-size: 2.5em;
 }
