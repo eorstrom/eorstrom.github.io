@@ -35,6 +35,12 @@ p {
 
 
 /*tech jpegs followed by tech font and hr*/
+
+#oracle {
+    height: 100px;
+    width: 100px;
+}
+
 .techimg {       
     height: 100px;
     display: inline-block;
