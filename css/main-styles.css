@@ -22,7 +22,7 @@ p {
 
 /* SECTION HEADINGS */
 
-.sectionheading {
+.sectionheading, .projectheading {
     color: #5B4881;
 }
 
@@ -35,6 +35,12 @@ p {
 
 
 /*tech jpegs followed by tech font and hr*/
+
+#oracle {
+    height: 100px;
+    width: 100px;
+}
+
 .techimg {       
     height: 100px;
     display: inline-block;
@@ -95,4 +101,10 @@ p {
 
 #e-mail:hover, #github:hover, #linkedin:hover {
     color: #5B4881;
+}
+
+/* OTHER */
+
+#jobtitle {
+    font-size: 2.5em;
 }
