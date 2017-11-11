@@ -26,7 +26,10 @@ p {
     color: #5B4881;
 }
 
-
+/* ABOUT ME DIVS */
+div.about-me-p {
+    margin-top: 20px;
+}
 
 /* ABOUT ME PARAGRAPHS */
 .about-me-p p {
@@ -92,6 +95,7 @@ p {
 
 #github-link {
     text-decoration: none;
+    color: #6A5496;
 }
 
 #e-mail, #github, #linkedin {
@@ -107,4 +111,8 @@ p {
 
 #jobtitle {
     font-size: 2.5em;
+}
+
+a.footer-links {
+    color: #D7C7E3;
 }
