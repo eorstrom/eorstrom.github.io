@@ -69,3 +69,7 @@ We dove deep into issues affecting new and junior-level programmers in the workp
 helping others find their way and break into the software development field.
 
 #### Everything Else ####
+
+#### Want to Connect? Contact Me ####
+
+{{< contact-form >}}

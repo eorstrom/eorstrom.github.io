@@ -61,6 +61,8 @@ pygmentsuseclasses         = true
   dateformfull             = "2006-01-02  Monday  15:04:05"
   noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
 
+  custom_css               = ["css/form.css", "css/custom.css"]
+
   # slides
   slidesDirPath            = "themes/AllinOne/static/img/header-slides"    # path to image in local dir (path for hugo)
   slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)

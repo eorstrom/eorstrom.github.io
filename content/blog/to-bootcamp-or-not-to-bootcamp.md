@@ -96,7 +96,7 @@ Episode 35 – The Bootcamp Experience: In the Trenches with Lesley Boyd</a>
 Episode 36 – The Bootcamp Experience: Landing the Job with Jonathan Edwards</a>
 
 ~~Also, if you like what Dave and I are doing and want to help keep great content heading your way,
-we'd love if you'd support us either through our 
+we'd love if you'd support us either through our
 <a href='https://www.patreon.com/juniordevelopertoolbox' target='_blank'>Patreon</a> page or our
 <a href='http://paypal.me/pools/c/86X3cA2N3O' target='_blank'>PayPal</a>.
 Every little bit helps!~~
