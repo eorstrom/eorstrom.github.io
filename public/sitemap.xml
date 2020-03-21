@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ErinOrstrom.com/about/</loc>
+    <lastmod>2020-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/blog/</loc>
+    <lastmod>2019-09-23T22:31:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/series/</loc>
+    <lastmod>2019-03-12T22:09:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/categories/</loc>
+    <lastmod>2019-03-12T22:09:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/</loc>
+    <lastmod>2019-03-12T22:09:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/series/</loc>
+    <lastmod>2019-03-12T22:09:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/categories/software-development/</loc>
+    <lastmod>2019-03-12T22:09:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/tags/</loc>
+    <lastmod>2019-03-12T22:09:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/blog/2019-03/to-bootcamp-or-not-to-bootcamp-deep-dive-into-erins-nss-experience/</loc>
+    <lastmod>2019-03-12T22:09:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/tags/junior-developer-toolbox/</loc>
+    <lastmod>2019-03-12T22:09:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/tags/nashville-software-school/</loc>
+    <lastmod>2019-03-12T22:09:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/tags/software-bootcamp/</loc>
+    <lastmod>2019-03-12T22:09:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/blog/2017-10/this-one-time-at-barcamp-nashville-2017/</loc>
+    <lastmod>2017-10-04T20:31:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/tags/barcamp-nashville-2017/</loc>
+    <lastmod>2017-10-04T20:31:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/tags/conferences/</loc>
+    <lastmod>2017-10-04T20:31:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/tags/interviews/</loc>
+    <lastmod>2017-10-04T20:31:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/tags/podcasting/</loc>
+    <lastmod>2017-10-04T20:31:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/tags/software-development/</loc>
+    <lastmod>2017-10-04T20:31:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/moment/</loc>
+    <lastmod>2015-08-19T20:29:37-07:00</lastmod>
+  </url>
+  
+</urlset>
