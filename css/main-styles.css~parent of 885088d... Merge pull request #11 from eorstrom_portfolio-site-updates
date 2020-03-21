@@ -1,0 +1,110 @@
+.container {
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+
+/* NAVBAR BACKGROUND COLOR OVERRIDE */
+
+.navbar {
+    background-color: #6A5496;
+}
+
+.contact-me {
+    max-width: 38em;
+    margin: 0 auto;
+}
+
+
+
+/* SECTION HEADINGS */
+
+.sectionheading, .projectheading {
+    color: #5B4881;
+}
+
+
+
+/* ABOUT ME PARAGRAPHS */
+.about-me-p p {
+    color: #47515B;
+}
+
+
+/*tech jpegs followed by tech font and hr*/
+
+#oracle {
+    height: 100px;
+    width: 100px;
+}
+
+.techimg {       
+    height: 100px;
+    display: inline-block;
+    margin: .313em .313em 2.5em .313em;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+
+
+
+/* CONTACT FORM SEND BUTTON COLOR OVERRIDE */
+.btn-success {
+    background-color: #6A5496;
+    border-color: #6A5496;
+}
+
+.btn-success:hover {
+    background-color: #5B4881;
+    border-color: #5B4881;
+}
+
+
+
+#linkedin-logo {
+    margin: 0 auto;
+    margin-right: 2em;
+}
+
+#github-logo {
+    margin: 0 auto;
+    margin-left: 2em;
+}
+
+#linkedin-link {
+    text-decoration: none;
+}
+
+#github-link {
+    text-decoration: none;
+}
+
+#e-mail, #github, #linkedin {
+    color: #47515B;
+    text-decoration: underline;
+}
+
+#e-mail:hover, #github:hover, #linkedin:hover {
+    color: #5B4881;
+}
+
+/* OTHER */
+
+#jobtitle {
+    font-size: 2.5em;
+}
