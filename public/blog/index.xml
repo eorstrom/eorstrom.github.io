@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Erin Orstrom</title>
+    <link>https://ErinOrstrom.com/blog/</link>
+    <description>Recent content in Blog on Erin Orstrom</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 23 Sep 2019 22:31:21 +0800</lastBuildDate>
+    
+	<atom:link href="https://ErinOrstrom.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>To Bootcamp? Or Not To Bootcamp? Deep Dive into Erin&#39;s NSS Experience</title>
+      <link>https://ErinOrstrom.com/blog/2019-03/to-bootcamp-or-not-to-bootcamp-deep-dive-into-erins-nss-experience/</link>
+      <pubDate>Tue, 12 Mar 2019 22:09:00 -0500</pubDate>
+      
+      <guid>https://ErinOrstrom.com/blog/2019-03/to-bootcamp-or-not-to-bootcamp-deep-dive-into-erins-nss-experience/</guid>
+      <description>There won&amp;rsquo;t be a new episode of Junior Developer Toolbox this week. But fret not! Dave and I are taking a break to recharge and plan upcoming show content. Dave is soaking up some rays on a cruise with his family (I&amp;rsquo;m jealous), but we wanted to make sure our listeners still received some great content this week. So I wrote this blog post to accompany the series on software bootcamps we&amp;rsquo;ve been working on recently.
+Over the last few episodes, we&amp;rsquo;ve talked about factors to consider when determining whether a software development bootcamp is the best choice for your situation (Episode 34), how to stay encouraged through the &amp;ldquo;pit of despair&amp;rdquo; during the program (Episode 35), what the job search is like after completing a bootcamp program (Episode 36), and everything in between. I want to share my decision making process and also mention some things I wish I had known, or planned better for before enrolling in Nashville Software School, my NSS bootcamp experience, and what my job search post NSS graduation was like.
+If you&amp;rsquo;ve been listening to the show for a while, you know that I didn&amp;rsquo;t go to college for software development/computer science. I stumbled upon it about a year into my first job after college and started learning from free online resources for a few months before attending meetups where others introduced me to Nashville Software School and the concept of a software bootcamp.</description>
+    </item>
+    
+    <item>
+      <title>This One Time at BarCamp Nashville 2017</title>
+      <link>https://ErinOrstrom.com/blog/2017-10/this-one-time-at-barcamp-nashville-2017/</link>
+      <pubDate>Wed, 04 Oct 2017 20:31:00 -0500</pubDate>
+      
+      <guid>https://ErinOrstrom.com/blog/2017-10/this-one-time-at-barcamp-nashville-2017/</guid>
+      <description>Hello All! We&amp;rsquo;re working hard to get our third episode (Episode 2) edited and finalized to release. In the meantime, we&amp;rsquo;d like to share our experience from BarCamp Nashville 2017 this past weekend.
+Erin, Dave, and Jason finally got together in person for the first time at the BarCamp Nashville 2017 Conference, which was hosted at Nashville Software School this year. BarCamp Nashville is a free, annual &amp;ldquo;unconference&amp;rdquo; that brings together the local tech community to explore, share and connect. There are sessions to attend, connections to be made, and plenty of good information to be shared by all.
+The JDT crew setup with Beej from the Complete Developer Podcast at their sponsor table. We met many interesting and insightful individuals in the Nashville Tech Community.
+One of the main highlights from BarCamp, was that the JDT crew signed up to interview various individuals from Nashville&amp;rsquo;s Tech Community - BarCamp attendees, speakers, and volunteers - for BarCamp&amp;rsquo;s podcast.
+Below are links to each of the interviews conducted by Erin, Dave, Jason, and Beej.
+ Michael Conrad with Erin Orstrom Joanne Eckton with Erin Orstrom Peter Mancini with Dave Harned Ron Johnson with Dave Harned David Cramb with Jason Belcher Lee Flatt with BJ Burns Callen Morrison with BJ Burns  There are other interviews from BarCamp to listen to as well.</description>
+    </item>
+    
+  </channel>
+</rss>
