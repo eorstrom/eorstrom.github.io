@@ -1,4 +1,4 @@
-baseURL                   = "https://ErinOrstrom.com"
+baseURL                   = "https://eorstrom.github.io"
 builddrafts                = false
 languageCode               = "en-US"
 canonifyurls               = true
