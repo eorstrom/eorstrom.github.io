@@ -5,7 +5,8 @@
     <link>https://ErinOrstrom.com/about/</link>
     <description>Recent content in About on Erin Orstrom</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en-us</language>
+    <copyright>Personal Web theme © Edna West. Website © Erin Orstrom, 2020.</copyright>
     <lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ErinOrstrom.com/about/index.xml" rel="self" type="application/rss+xml" />
