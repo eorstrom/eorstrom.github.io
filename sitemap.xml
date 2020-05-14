@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ErinOrstrom.com/post/</loc>
+    <lastmod>2020-05-12T22:11:50-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/</loc>
+    <lastmod>2020-05-12T22:11:50-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/post/converting_site_to_hugo/</loc>
+    <lastmod>2020-05-12T22:11:50-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://ErinOrstrom.com/designs/balsamiq/</loc>
     <lastmod>2020-05-02T12:50:00-05:00</lastmod>
     <priority>0</priority>
@@ -10,12 +30,6 @@
   
   <url>
     <loc>https://ErinOrstrom.com/designs/</loc>
-    <lastmod>2020-05-02T12:50:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ErinOrstrom.com/</loc>
     <lastmod>2020-05-02T12:50:00-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -160,13 +174,6 @@
     <loc>https://ErinOrstrom.com/techs/jquery/</loc>
     <lastmod>2020-04-30T18:48:26-05:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ErinOrstrom.com/post/</loc>
-    <lastmod>2020-04-06T21:51:14-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
