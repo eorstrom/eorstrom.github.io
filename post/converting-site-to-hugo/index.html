@@ -218,16 +218,13 @@
 
 <p>These two blog posts were invaluable resources for me during this process:</p>
 
-<ul>
-<li><a href='https://medium.com/@pritamp/hugo-site-for-github-pages-end-to-end-guide-797de62b9892' target='_blank'>Hugo Site for Github pages — End to End Guide</a></li>
-<li><a href='https://inside.getambassador.com/creating-and-deploying-your-first-hugo-site-to-github-pages-1e1f496cf88d' target='_blank'>Creating and deploying your first Hugo site to Github pages</a></li>
-</ul>
-
-<p>I&rsquo;m not going to go step by step, since both blogs above do a really good job of walking you through how to create a Hugo site from scratch and the different commands you&rsquo;ll need to use, but I will point out differences in my process.</p>
+<p><a href='https://medium.com/@pritamp/hugo-site-for-github-pages-end-to-end-guide-797de62b9892' target='_blank'>Hugo Site for Github pages — End to End Guide</a>
+<a href='https://inside.getambassador.com/creating-and-deploying-your-first-hugo-site-to-github-pages-1e1f496cf88d' target='_blank'>Creating and deploying your first Hugo site to Github pages</a>
+I&rsquo;m not going to go step by step, since both blogs above do a really good job of walking you through how to create a Hugo site from scratch and the different commands you&rsquo;ll need to use, but I will point out differences in my process.</p>
 
 <p>First, I saved the content from my current site that I wanted to transfer to the new site. I saved the files into a separate local folder so I could easily copy and paste what I wanted (text, etc.) without having to retype everything (even though I largely didn&rsquo;t use much of the content from the old site in the end anyway).</p>
 
-<p>Next, I started a new Hugo site in a folder called <strong>eorstrom_hugo_site</strong>, and implemented the theme I wanted to use, which ended up being the <a href='https://themes.gohugo.io/personal-web/personal-web' target='_blank'>personal-web</a> theme. <strong>*Note*</strong>: once you pick a theme try to stick with it, as it&rsquo;s not easy to switch themes since each one is structured a bit differently, has different naming conventions, and other differences that make it a nuisance to switch themes. Try a few out on test Hugo sites before committing to one for your site.</p>
+<p>Next, I started a new Hugo site in a folder called eorstrom_hugo_site, and implemented the theme I wanted to use, which ended up being the <a href='https://themes.gohugo.io/personal-web/personal-web' target='_blank'>personal-web</a> theme. <em>Note</em>: once you pick a theme try to stick with it, as it&rsquo;s not easy to switch themes since each one is structured a bit differently, has different naming conventions, and other differences that make it a nuisance to switch themes. Try a few out on test Hugo sites before committing to one for your site.</p>
 
 <p>Also, I would suggest forking the theme from its Github repo to your own and use that repo, so that you can make any changes you want to the theme. If you use the creator&rsquo;s repository, you can&rsquo;t make any changes without making a Pull Request.</p>
 
@@ -237,7 +234,7 @@
 
 <p>After you&rsquo;ve made changes to your Hugo site, you have to generate new static files to push to your site&rsquo;s repository. To do this, the steps I took were to clone my site repo (<a href="https://github.com/eorstrom/eorstrom.github.io" target="_blank">https://github.com/eorstrom/eorstrom.github.io</a>) into my Hugo site project, name the folder to public, and used the command</p>
 
-<p><code>hugo -t personal-web</code></p>
+<p>hugo -t personal-web</p>
 
 <p>Which generates the static files needed for your site, using the -t flag and the specified theme name to build the files with.</p>
 
@@ -251,7 +248,7 @@
 
 <p>At first it was confusing because any changes I made showed up in the root of the project and I had to pay really close attention when grouping them in commits and make sure I was pushing the changes to the correct repositories, but it&rsquo;s gotten a lot easier to work with as I&rsquo;ve made more changes to the site.</p>
 
-<p>I added the <strong>public/</strong> and <strong>themes/personal-web</strong> folders to my .gitignore file at the root of the project to help manage tracking the changes. Changes for each folder are still tracked in their individual repositories.</p>
+<p>I added the public/ and themes/personal-web folders to my .gitignore file at the root of the project to help manage tracking the changes. Changes for each folder are still tracked in their individual repositories.</p>
 
 <p>After pushing the newly generated static files to my eorstrom.github.io repository, and giving a few minutes for the site to refresh, boom! There was my website using Hugo with a new theme, fresh look, and updated content! 🎉 What a great feeling that was after two weeks of struggling with it! And I learned quite a bit in the process.</p>
 
