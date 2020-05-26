@@ -7,17 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sidebar photo by Sacha Styles on Unsplash. Website © Erin Orstrom, {year}.</copyright>
-    <lastBuildDate>Tue, 12 May 2020 22:11:50 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 13:52:19 -0500</lastBuildDate>
     
 	<atom:link href="https://ErinOrstrom.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Are You More Focused on Quality Results, or Seeing Your Employees&#39; Butts in Their Seats?</title>
+      <link>https://ErinOrstrom.com/post/quality-results-vs-butts-in-seats/</link>
+      <pubDate>Mon, 25 May 2020 13:52:19 -0500</pubDate>
+      
+      <guid>https://ErinOrstrom.com/post/quality-results-vs-butts-in-seats/</guid>
+      <description>Photo by Kevin Bhagat on Unsplash
+  There have been many folks posting recently around companies being compelled to let their employees work remotely due to the COVID-19 pandemic and how many of these employees self-report an increase in productivity and overall job satisfaction. This has got me thinking about a topic that really bugs me as it relates to the mindsets of many companies and leaders, specifically in America, today.</description>
+    </item>
+    
+    <item>
       <title>How I Converted My Existing Website to Use Hugo</title>
-      <link>https://ErinOrstrom.com/post/converting_site_to_hugo/</link>
+      <link>https://ErinOrstrom.com/post/converting-site-to-hugo/</link>
       <pubDate>Tue, 12 May 2020 22:11:50 -0500</pubDate>
       
-      <guid>https://ErinOrstrom.com/post/converting_site_to_hugo/</guid>
+      <guid>https://ErinOrstrom.com/post/converting-site-to-hugo/</guid>
       <description>I wanted to write this post as a guide on how I converted my website to use Hugo, a static site generator, in order to host blog posts without using a CMS like WordPress. When I was looking for resources and guides on how to build a Hugo site, nearly every resource I ran across was a guide on how to build a Hugo site from scratch. Which is great because that&amp;rsquo;s where most people start from.</description>
     </item>
     
