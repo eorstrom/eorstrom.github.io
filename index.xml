@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erin Orstrom</title>
@@ -48,7 +48,7 @@ We meet once a week for progress updates. We have secured the new design approva
       
       <guid>https://ErinOrstrom.com/portfolio/junior-developer-toolbox/</guid>
       <description>Junior Developer Toolbox was a podcast about building, maintaining, and surviving a career in software engineering. We provided real talk from the trenches about everyday life as a junior developer.
-The podcast was co-hosted by my friend Dave Harned and myself, and early on by Jason Belcher. We produced 40 episodes over 18 months on a biweekly basis on various topics related to software development and our experience working in the industry as junior software developers.</description>
+The podcast was co-hosted by my friend Dave Harnedand myself, and early on by Jason Belcher. We produced 40 episodes over 18 months on a biweekly basis on various topics related to software development and our experience working in the industry as junior software developers.</description>
     </item>
     
     <item>
@@ -87,8 +87,8 @@ Description: I was team lead on the creation of our class website. I coordinated
       <pubDate>Wed, 04 Oct 2017 20:31:00 -0500</pubDate>
       
       <guid>https://ErinOrstrom.com/post/this-one-time-at-barcamp-nashville-2017/</guid>
-      <description>Hello All! We&amp;rsquo;re working hard to get our third episode (Episode 2) edited and finalized to release. In the meantime, we&amp;rsquo;d like to share our experience from BarCamp Nashville 2017 this past weekend.
-Erin, Dave, and Jason finally got together in person for the first time at the BarCamp Nashville 2017 Conference, which was hosted at Nashville Software School this year. BarCamp Nashville is a free, annual &amp;ldquo;unconference&amp;rdquo; that brings together the local tech community to explore, share and connect.</description>
+      <description>Hello All! We&amp;rsquo;re working hard to get our third episode (Episode 2) edited and finalized to release. In the meantime, we&amp;rsquo;d like to share our experience from BarCamp Nashville 2017this past weekend.
+Erin, Dave, and Jason finally got together in person for the first time at the BarCamp Nashville 2017 Conference, which was hosted at Nashville Software Schoolthis year. BarCamp Nashville is a free, annual &amp;ldquo;unconference&amp;rdquo; that brings together the local tech community to explore, share and connect.</description>
     </item>
     
   </channel>

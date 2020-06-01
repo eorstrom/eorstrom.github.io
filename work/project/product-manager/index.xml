@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project/Product Manager on Erin Orstrom</title>
@@ -7,7 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sidebar photo by Sacha Styles on Unsplash. Website © Erin Orstrom, {year}.</copyright>
-    <lastBuildDate>Sat, 02 May 2020 12:50:00 -0500</lastBuildDate>
     
 	<atom:link href="https://ErinOrstrom.com/work/project/product-manager/index.xml" rel="self" type="application/rss+xml" />
     

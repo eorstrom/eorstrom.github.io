@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -19,7 +19,8 @@
   <url>
     <loc>https://ErinOrstrom.com/</loc>
     <lastmod>2020-05-25T13:52:19-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -32,19 +33,22 @@
   <url>
     <loc>https://ErinOrstrom.com/designs/balsamiq/</loc>
     <lastmod>2020-05-02T12:50:00-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/designs/</loc>
     <lastmod>2020-05-02T12:50:00-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/designs/figma/</loc>
     <lastmod>2020-05-02T12:50:00-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -62,57 +66,52 @@
   </url>
   
   <url>
-    <loc>https://ErinOrstrom.com/work/project/product-manager/</loc>
-    <lastmod>2020-05-02T12:50:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ErinOrstrom.com/techs/</loc>
     <lastmod>2020-05-02T12:50:00-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/techs/wordpress/</loc>
     <lastmod>2020-05-02T12:50:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ErinOrstrom.com/work/</loc>
-    <lastmod>2020-05-02T12:50:00-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/techs/buffer/</loc>
     <lastmod>2020-04-30T19:31:04-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/work/cohost/</loc>
     <lastmod>2020-04-30T19:31:04-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/work/content-creator/</loc>
     <lastmod>2020-04-30T19:31:04-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/techs/garageband/</loc>
     <lastmod>2020-04-30T19:31:04-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/techs/hootsuite/</loc>
     <lastmod>2020-04-30T19:31:04-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -125,37 +124,57 @@
   <url>
     <loc>https://ErinOrstrom.com/work/producer/</loc>
     <lastmod>2020-04-30T19:31:04-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/work/social-media-manager/</loc>
     <lastmod>2020-04-30T19:31:04-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/work/</loc>
+    <lastmod>2020-04-30T19:31:04-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/techs/css3/</loc>
     <lastmod>2020-04-30T18:48:26-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/techs/html5/</loc>
     <lastmod>2020-04-30T18:48:26-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/techs/javascript/</loc>
     <lastmod>2020-04-30T18:48:26-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/techs/jekyll/</loc>
     <lastmod>2020-04-30T18:48:26-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/techs/jquery/</loc>
+    <lastmod>2020-04-30T18:48:26-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -168,19 +187,15 @@
   <url>
     <loc>https://ErinOrstrom.com/work/project-coordinator/</loc>
     <lastmod>2020-04-30T18:48:26-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://ErinOrstrom.com/work/web-developer/</loc>
     <lastmod>2020-04-30T18:48:26-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ErinOrstrom.com/techs/jquery/</loc>
-    <lastmod>2020-04-30T18:48:26-05:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -213,6 +228,12 @@
   
   <url>
     <loc>https://ErinOrstrom.com/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://ErinOrstrom.com/work/project/product-manager/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
