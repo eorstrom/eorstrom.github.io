@@ -1,0 +1,24 @@
+/* li {
+    margin-left: 2em;
+} */
+
+/* x.ai calendar Schedule a Meeting button */
+img.xdotai-iframe {
+    margin: 1em auto;
+}
+#xdotaiEmbed {
+    display: block;
+}
+
+ul > li:not(.nav-item) {
+    padding-inline-start: .8em;
+    margin-left: 2em;
+}
+
+div.about-content {
+    margin-top: 3em;
+}
+
+div.about-page-top-div {
+    padding-top: 3em;
+}

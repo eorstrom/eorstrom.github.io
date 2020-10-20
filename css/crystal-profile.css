@@ -1,0 +1,14 @@
+#crystal-profile-div {
+  float: right
+}
+
+#crystal-knows-heading {
+    display: inline-block
+}
+
+img#crystal-logo {
+    width: 10%;
+    display: inline-block;
+    float: left;
+    margin: 0 5px 0 0
+}

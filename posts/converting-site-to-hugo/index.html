@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How I Converted My Existing Website to Use Hugo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/assets/css/layouts/main.css" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<link rel="stylesheet" href="/assets/css/navigators/navbar.css" />
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="https://ErinOrstrom.com/assets/images/favicon.png" />
+
+
+<link rel="stylesheet" href="/assets/css/style.css" />
+
+    
+<meta name="description" content="How I Converted My Existing Website to Use Hugo" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/assets/css/layouts/single.css" />
+<link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
+
+
+    
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-81706954-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      <img src="https://ErinOrstrom.com/assets/images/main-logo.png">Erin Orstrom</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  <img src="https://ErinOrstrom.com/assets/images/main-logo.png" class="d-none" id="main-logo">
+  <img src="https://ErinOrstrom.com/assets/images/inverted-logo.png" class="d-none" id="inverted-logo">
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <input type="text" value="" placeholder="Search" data-search="" id="search-box" />
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="https://ErinOrstrom.com/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://ErinOrstrom.com/images/blog-posts/hugo-static-site-generator-banner.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/2016_05_19_NSS_Cohort_12_0274_T_cropped_246x246.jpg'/>
+          <h5 class="author-name">Erin Orstrom</h5>
+          <p>May 14, 2020</p>
+        </div>
+
+        <div class="title">
+          <h1>How I Converted My Existing Website to Use Hugo</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          <p>I wanted to write this post as a guide on how I converted my website to use <a href='https://gohugo.io/' target='_blank'>Hugo</a>, a static site generator, in order to host blog posts without using a CMS like WordPress. When I was looking for resources and guides on how to build a Hugo site, nearly every resource I ran across was a guide on how to build a Hugo site from scratch. Which is great because that&rsquo;s where most people start from. However, because I already had an existing site, I couldn&rsquo;t follow many of these guides step-by-step and get the desired results. I scrapped and started over so many times I lost count. This guide may not work for everyone who wants to convert their site to use Hugo, and some of it is a little hackey I&rsquo;ll admit, but it&rsquo;s what worked for me.</p>
+<p>These two blog posts were invaluable resources for me during this process:</p>
+<p><a href='https://medium.com/@pritamp/hugo-site-for-github-pages-end-to-end-guide-797de62b9892' target='_blank'>Hugo Site for Github pages — End to End Guide</a>
+<a href='https://inside.getambassador.com/creating-and-deploying-your-first-hugo-site-to-github-pages-1e1f496cf88d' target='_blank'>Creating and deploying your first Hugo site to Github pages</a>
+I&rsquo;m not going to go step by step, since both blogs above do a really good job of walking you through how to create a Hugo site from scratch and the different commands you&rsquo;ll need to use, but I will point out differences in my process.</p>
+<p>First, I saved the content from my current site that I wanted to transfer to the new site. I saved the files into a separate local folder so I could easily copy and paste what I wanted (text, etc.) without having to retype everything (even though I largely didn&rsquo;t use much of the content from the old site in the end anyway).</p>
+<p>Next, I started a new Hugo site in a folder called eorstrom_hugo_site, and implemented the theme I wanted to use, which ended up being the <a href='https://themes.gohugo.io/personal-web/personal-web' target='_blank'>personal-web</a> theme. <em>Note</em>: once you pick a theme try to stick with it, as it&rsquo;s not easy to switch themes since each one is structured a bit differently, has different naming conventions, and other differences that make it a nuisance to switch themes. Try a few out on test Hugo sites before committing to one for your site.</p>
+<p>Also, I would suggest forking the theme from its Github repo to your own and use that repo, so that you can make any changes you want to the theme. If you use the creator&rsquo;s repository, you can&rsquo;t make any changes without making a Pull Request.</p>
+<p>Now, a bit of explanation before the next step, because this is something that confused me initially. You will need 2 separate repositories, one for your site changes with Hugo, and one for hosting your site on Github pages, since Github pages doesn&rsquo;t natively understand Hugo, which is written in <a href='https://golang.org/' target='_blank'>Google&rsquo;s Go programming language</a>. I already had the repository for hosting the static files for my site, so I just had to create the repo for the Hugo site changes and push my starting changes</p>
+<p>I then deleted pretty much everything from my current site except for the CNAME and ReadMe.md files, since the structure wouldn&rsquo;t play well with Hugo&rsquo;s site structure and were no longer needed.</p>
+<p>After you&rsquo;ve made changes to your Hugo site, you have to generate new static files to push to your site&rsquo;s repository. To do this, the steps I took were to clone my site repo (<a href="https://github.com/eorstrom/eorstrom.github.io">https://github.com/eorstrom/eorstrom.github.io</a>) into my Hugo site project, name the folder to public, and used the command</p>
+<pre><code>hugo -t personal-web
+</code></pre>
+<p>Which generates the static files needed for your site, using the -t flag and the specified theme name to build the files with.</p>
+<p>At this point, I am managing 3 different repositories within one project:</p>
+<ul>
+<li>
+<p>Site repo (hosted with Github pages): <a href="https://github.com/eorstrom/eorstrom.github.io">https://github.com/eorstrom/eorstrom.github.io</a></p>
+</li>
+<li>
+<p>Hugo site repo: <a href="https://github.com/eorstrom/eorstrom_hugo_site">https://github.com/eorstrom/eorstrom_hugo_site</a></p>
+</li>
+<li>
+<p>Personal-web forked theme: <a href="https://github.com/eorstrom/personal-web">https://github.com/eorstrom/personal-web</a></p>
+</li>
+</ul>
+<p>At first it was confusing because any changes I made showed up in the root of the project and I had to pay really close attention when grouping them in commits and make sure I was pushing the changes to the correct repositories, but it&rsquo;s gotten a lot easier to work with as I&rsquo;ve made more changes to the site.</p>
+<p>I added the public/ and themes/personal-web folders to my .gitignore file at the root of the project to help manage tracking the changes. Changes for each folder are still tracked in their individual repositories.</p>
+<p>After pushing the newly generated static files to my eorstrom.github.io repository, and giving a few minutes for the site to refresh, boom! There was my website using Hugo with a new theme, fresh look, and updated content! 🎉 What a great feeling that was after two weeks of struggling with it! And I learned quite a bit in the process.</p>
+<p>I&rsquo;m not going to go into how I created blog posts or anything in this post, but this was how I got the Hugo structure and theme implemented and pushed to their respective repositories. Hopefully this helps others out there that are trying to convert an already existing site to use Hugo so they don&rsquo;t face the same struggles I did.</p>
+<p>If anything in this post is unclear or if you have questions, please feel free to <a href="/contact/">contact me</a> or leave a comment on the LinkedIn post.</p>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="%3cyour%20site%27s%20Github%20repo%20URL%3e/edit/master/content/posts/converting-site-to-hugo.md">
+                <i class="fas fa-code-branch"></i>
+                Improve This Page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        <div class="row next-prev-navigator">
+
+
+  
+
+  
+
+  
+
+  
+    
+      
+      <div class="col-md-6 previous-article">
+        <a href="/posts/quality-results-vs-butts-in-seats/" class="btn btn-outline-info">
+          <span><i class="fas fa-chevron-circle-left"></i> Prev</span>
+          <br />
+          <span>Are You More Focused on Quality Results, or Seeing Your Employees&#39; Butts in Their Seats?</span>
+        </a>
+      </div>
+      
+    
+    
+      
+        
+        
+          
+              
+          
+        
+        <div class="col-md-6 next-article">
+          <a href="/posts/time-for-a-new-adventure/" class="btn btn-outline-info">
+            <span>Next <i class="fas fa-chevron-circle-right"></i></span>
+            <br />
+            <span>Time for a New Adventure!</span>
+          </a>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+</div>
+
+      <hr />
+      
+      
+          <div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function () {
+    
+    
+    if (window.location.hostname == "localhost") return;
+
+    var dsq = document.createElement("script");
+    dsq.type = "text/javascript";
+    dsq.async = true;
+    var disqus_shortname = "erinorstrom";
+    dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+    (
+      document.getElementsByTagName("head")[0] ||
+      document.getElementsByTagName("body")[0]
+    ).appendChild(dsq);
+  })();
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript"
+    >comments powered by Disqus.</a
+  ></noscript
+>
+<a href="https://disqus.com/" class="dsq-brlink"
+  >comments powered by <span class="logo-disqus">Disqus</span></a
+>
+
+      
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+  </section>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        
+        <ul>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#summary">Summary</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#career-journey">Career Journey</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#projects">Projects</a>
+            </li>
+            
+            
+        </ul>
+        
+
+      </div>
+      
+      
+    </div>
+  </div>
+  <hr />
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4">
+        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
+          <img src="/assets/images/inverted-logo.png">
+          Toha
+        </a>
+      </div>
+      <div class="col-md-4 text-center">© Erin Orstrom, 2020.</div>
+      <div class="col-md-4 text-right">
+        <a id="hugo" href="https://gohugo.io/">Powered by
+        <img
+          src="/assets/images/hugo-logo-wide.svg"
+          alt="Hugo Logo"
+          height="18"
+        />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script src="/assets/js/navbar.js"></script>
+<script src="/assets/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/assets/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>
